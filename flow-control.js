@@ -6,29 +6,29 @@ function basicTeenager(age)
     }
 }
 
-function teenager(age) 
+function teenager(age)
 {
   if(13<= age <= 19)
     {
       return "You are a teenager!"
     }
-  else 
+  else
     {
       return "You are not a teenager!"
     }
 }
 
-function ageChecker(age) 
+function ageChecker(age)
 {
   if(13<= age <= 19)
     {
       return "you are a teenager!"
     }
-  else if (age <= 12) 
+  else if (age <= 12)
     {
       return "You are a kid!"
     }
-  else 
+  else
     {
       return "You are a grownup!"
     }
